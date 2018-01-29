@@ -1,0 +1,52 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dN:/ECE124/Lab1/simulation/qsim
+vLogicalStep_Lab1_top
+!s110 1516916951
+!i10b 1
+!s100 1V:Ke@jQPKZogfR@diNR31
+IlzJ<9C<OX3oh4Wf2_[noY1
+Z1 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1516916950
+8LogicalStep_Lab1_top.vo
+FLogicalStep_Lab1_top.vo
+L0 32
+Z2 OV;L;10.4b;61
+r1
+!s85 0
+31
+!s108 1516916951.000000
+!s107 LogicalStep_Lab1_top.vo|
+!s90 -work|work|LogicalStep_Lab1_top.vo|
+!i113 1
+Z3 o-work work
+n@logical@step_@lab1_top
+vLogicalStep_Lab1_top_vlg_vec_tst
+!s110 1516916952
+!i10b 1
+!s100 @dk^6oPQEUb;OBAWIE1Im3
+IlEbO7Y<TLh@8LjG]5fC@L0
+R1
+R0
+w1516916947
+8waveform2.vwf.vt
+Fwaveform2.vwf.vt
+L0 30
+R2
+r1
+!s85 0
+31
+!s108 1516916952.000000
+!s107 waveform2.vwf.vt|
+!s90 -work|work|waveform2.vwf.vt|
+!i113 1
+R3
+n@logical@step_@lab1_top_vlg_vec_tst
