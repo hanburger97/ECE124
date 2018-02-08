@@ -5,7 +5,7 @@ use ieee.numeric_std.all;
 entity adder4 is port(
 	sig1		:	in  std_logic_vector(3 downto 0);
 	sig2		:	in  std_logic_vector(3 downto 0);
-	sum		    : 	out std_logic_vector(7 downto 0)
+	sum		: 	out std_logic_vector(7 downto 0)
 
 );
 end adder4;
