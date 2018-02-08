@@ -105,7 +105,7 @@ begin
 	--===================================== SEG7 Display Section===================================================
 	
 	-- Concatenation of hex_A and hex_B
-	hexAB <= hex_A & hex_B;
+	hexAB <= hex_B & hex_A;
 	-- Adder 4 bit
 	adderInst			: adder4 port map(hex_A, hex_B, sum);
 	
