@@ -4,7 +4,7 @@ JedecChain;
 	DefaultMfr(6E);
 
 	P ActionCode(Cfg)
-		Device PartName(10M08SAE144) Path("N:/ECE124/Lab2/output_files/") File("LogicalStep_Lab2_top.sof") MfrSpec(OpMask(1));
+		Device PartName(10M08SAE144) Path("N:/1b/ECE124/Lab/Lab2Proto/output_files/") File("LogicalStep_Lab2_top.sof") MfrSpec(OpMask(1));
 
 ChainEnd;
 

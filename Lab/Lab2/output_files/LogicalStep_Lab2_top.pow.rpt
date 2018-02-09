@@ -1,5 +1,5 @@
 PowerPlay Power Analyzer report for LogicalStep_Lab2_top
-Fri Jan 26 17:07:08 2018
+Thu Feb 08 20:30:58 2018
 Quartus Prime Version 15.1.0 Build 185 10/21/2015 SJ Standard Edition
 
 
@@ -65,7 +65,7 @@ agreement for further details.
 +-------------------------------------------------------------------------------------------+
 ; PowerPlay Power Analyzer Summary                                                          ;
 +----------------------------------------+--------------------------------------------------+
-; PowerPlay Power Analyzer Status        ; Successful - Fri Jan 26 17:07:08 2018            ;
+; PowerPlay Power Analyzer Status        ; Successful - Thu Feb 08 20:30:58 2018            ;
 ; Quartus Prime Version                  ; 15.1.0 Build 185 10/21/2015 SJ Standard Edition  ;
 ; Revision Name                          ; LogicalStep_Lab2_top                             ;
 ; Top-level Entity Name                  ; LogicalStep_Lab2_top                             ;
@@ -115,8 +115,8 @@ agreement for further details.
 ; sw[0]                 ; No valid clock domain found ;
 ; pb[3]                 ; No valid clock domain found ;
 ; pb[2]                 ; No valid clock domain found ;
-; pb[1]                 ; No valid clock domain found ;
 ; pb[0]                 ; No valid clock domain found ;
+; pb[1]                 ; No valid clock domain found ;
 ; sw[1]                 ; No valid clock domain found ;
 ; sw[5]                 ; No valid clock domain found ;
 ; sw[2]                 ; No valid clock domain found ;
@@ -284,7 +284,7 @@ agreement for further details.
 Info: *******************************************************************
 Info: Running Quartus Prime PowerPlay Power Analyzer
     Info: Version 15.1.0 Build 185 10/21/2015 SJ Standard Edition
-    Info: Processing started: Fri Jan 26 17:07:06 2018
+    Info: Processing started: Thu Feb 08 20:30:56 2018
 Info: Command: quartus_pow --read_settings_files=off --write_settings_files=off LogicalStep_Lab2 -c LogicalStep_Lab2_top
 Info (21077): Low junction temperature is 0 degrees C
 Info (21077): High junction temperature is 85 degrees C
@@ -302,7 +302,7 @@ Info (215049): Average toggle rate for this design is 0.000 millions of transiti
 Info (215031): Total thermal power estimate for the design is 159.79 mW
 Info: Quartus Prime PowerPlay Power Analyzer was successful. 0 errors, 4 warnings
     Info: Peak virtual memory: 852 megabytes
-    Info: Processing ended: Fri Jan 26 17:07:09 2018
+    Info: Processing ended: Thu Feb 08 20:30:59 2018
     Info: Elapsed time: 00:00:03
     Info: Total CPU time (on all processors): 00:00:02
 

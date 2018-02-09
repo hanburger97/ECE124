@@ -14,14 +14,13 @@ end processor;
 architecture logic of processor is
 
 begin
-	
-	
+
 	with pbs select
 	otp <=		
 				--Logical expression								-when pb is 
-							"00000000"								when "000",
-							"0000" & (in1 and in2)				when "001",
-							"0000" & (in1 or in2)				when "010",
-							"0000" & (in1 xor in2)				when "100",
+							"00000000"								when "111",
+							"0000" & (in1 and in2)				    when "110",
+							"0000" & (in1 or in2)				    when "101",
+							"0000" & (in1 xor in2)				    when "011",
 							"00000000"								when others;
 end architecture logic;

@@ -1,5 +1,5 @@
 Analysis & Synthesis report for LogicalStep_Lab2_top
-Fri Jan 26 17:06:42 2018
+Thu Feb 08 20:30:30 2018
 Quartus Prime Version 15.1.0 Build 185 10/21/2015 SJ Standard Edition
 
 
@@ -44,7 +44,7 @@ agreement for further details.
 +--------------------------------------------------------------------------------------+
 ; Analysis & Synthesis Summary                                                         ;
 +------------------------------------+-------------------------------------------------+
-; Analysis & Synthesis Status        ; Successful - Fri Jan 26 17:06:42 2018           ;
+; Analysis & Synthesis Status        ; Successful - Thu Feb 08 20:30:30 2018           ;
 ; Quartus Prime Version              ; 15.1.0 Build 185 10/21/2015 SJ Standard Edition ;
 ; Revision Name                      ; LogicalStep_Lab2_top                            ;
 ; Top-level Entity Name              ; LogicalStep_Lab2_top                            ;
@@ -167,18 +167,18 @@ agreement for further details.
 +----------------------------+-------------+
 
 
-+--------------------------------------------------------------------------------------------------------------------------+
-; Analysis & Synthesis Source Files Read                                                                                   ;
-+----------------------------------+-----------------+-----------------+-----------------------------------------+---------+
-; File Name with User-Entered Path ; Used in Netlist ; File Type       ; File Name with Absolute Path            ; Library ;
-+----------------------------------+-----------------+-----------------+-----------------------------------------+---------+
-; mux.vhd                          ; yes             ; User VHDL File  ; N:/ECE124/Lab2/mux.vhd                  ;         ;
-; LogicalStep_Lab2_top.vhd         ; yes             ; User VHDL File  ; N:/ECE124/Lab2/LogicalStep_Lab2_top.vhd ;         ;
-; segment7_mux.vhd                 ; yes             ; User VHDL File  ; N:/ECE124/Lab2/segment7_mux.vhd         ;         ;
-; SevenSegment.vhd                 ; yes             ; User VHDL File  ; N:/ECE124/Lab2/SevenSegment.vhd         ;         ;
-; adder4.vhd                       ; yes             ; User VHDL File  ; N:/ECE124/Lab2/adder4.vhd               ;         ;
-; processor.vhd                    ; yes             ; User VHDL File  ; N:/ECE124/Lab2/processor.vhd            ;         ;
-+----------------------------------+-----------------+-----------------+-----------------------------------------+---------+
++--------------------------------------------------------------------------------------------------------------------------------------+
+; Analysis & Synthesis Source Files Read                                                                                               ;
++----------------------------------+-----------------+-----------------+-----------------------------------------------------+---------+
+; File Name with User-Entered Path ; Used in Netlist ; File Type       ; File Name with Absolute Path                        ; Library ;
++----------------------------------+-----------------+-----------------+-----------------------------------------------------+---------+
+; mux.vhd                          ; yes             ; User VHDL File  ; N:/1b/ECE124/Lab/Lab2Proto/mux.vhd                  ;         ;
+; LogicalStep_Lab2_top.vhd         ; yes             ; User VHDL File  ; N:/1b/ECE124/Lab/Lab2Proto/LogicalStep_Lab2_top.vhd ;         ;
+; segment7_mux.vhd                 ; yes             ; User VHDL File  ; N:/1b/ECE124/Lab/Lab2Proto/segment7_mux.vhd         ;         ;
+; SevenSegment.vhd                 ; yes             ; User VHDL File  ; N:/1b/ECE124/Lab/Lab2Proto/SevenSegment.vhd         ;         ;
+; adder4.vhd                       ; yes             ; User VHDL File  ; N:/1b/ECE124/Lab/Lab2Proto/adder4.vhd               ;         ;
+; processor.vhd                    ; yes             ; User VHDL File  ; N:/1b/ECE124/Lab/Lab2Proto/processor.vhd            ;         ;
++----------------------------------+-----------------+-----------------+-----------------------------------------------------+---------+
 
 
 +-----------------------------------------------------------+
@@ -222,9 +222,9 @@ agreement for further details.
 ;    |SevenSegment:INST1|    ; 7 (7)             ; 0 (0)        ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |LogicalStep_Lab2_top|SevenSegment:INST1 ; work         ;
 ;    |SevenSegment:INST2|    ; 7 (7)             ; 0 (0)        ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |LogicalStep_Lab2_top|SevenSegment:INST2 ; work         ;
 ;    |adder4:adderInst|      ; 5 (5)             ; 0 (0)        ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |LogicalStep_Lab2_top|adder4:adderInst   ; work         ;
-;    |mux8_2t1:muxInst2|     ; 15 (15)           ; 0 (0)        ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |LogicalStep_Lab2_top|mux8_2t1:muxInst2  ; work         ;
+;    |mux8_2t1:muxInst2|     ; 16 (16)           ; 0 (0)        ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |LogicalStep_Lab2_top|mux8_2t1:muxInst2  ; work         ;
 ;    |mux8_2t1:muxInst|      ; 8 (8)             ; 0 (0)        ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |LogicalStep_Lab2_top|mux8_2t1:muxInst   ; work         ;
-;    |processor:pinst|       ; 4 (4)             ; 0 (0)        ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |LogicalStep_Lab2_top|processor:pinst    ; work         ;
+;    |processor:pinst|       ; 3 (3)             ; 0 (0)        ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |LogicalStep_Lab2_top|processor:pinst    ; work         ;
 ;    |segment7_mux:INST3|    ; 18 (18)           ; 11 (11)      ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |LogicalStep_Lab2_top|segment7_mux:INST3 ; work         ;
 +----------------------------+-------------------+--------------+-------------+------------+--------------+---------+-----------+------+--------------+------------+------------------------------------------+--------------+
 Note: For table entries with two numbers listed, the numbers in parentheses indicate the number of resources of the given type used by the specific entity alone. The numbers listed outside of parentheses indicate the total resources of the given type used by the specific entity and all of its sub-entities in the hierarchy.
@@ -275,7 +275,7 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 ;         4 data inputs ; 30                          ;
 ;                       ;                             ;
 ; Max LUT depth         ; 5.40                        ;
-; Average LUT depth     ; 3.53                        ;
+; Average LUT depth     ; 3.54                        ;
 +-----------------------+-----------------------------+
 
 
@@ -294,38 +294,38 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 Info: *******************************************************************
 Info: Running Quartus Prime Analysis & Synthesis
     Info: Version 15.1.0 Build 185 10/21/2015 SJ Standard Edition
-    Info: Processing started: Fri Jan 26 17:06:27 2018
+    Info: Processing started: Thu Feb 08 20:30:14 2018
 Info: Command: quartus_map --read_settings_files=on --write_settings_files=off LogicalStep_Lab2 -c LogicalStep_Lab2_top
 Info (20030): Parallel compilation is enabled and will use 2 of the 2 processors detected
 Info (12021): Found 2 design units, including 1 entities, in source file mux.vhd
-    Info (12022): Found design unit 1: mux8_2t1-logic File: N:/ECE124/Lab2/mux.vhd Line: 14
-    Info (12023): Found entity 1: mux8_2t1 File: N:/ECE124/Lab2/mux.vhd Line: 5
+    Info (12022): Found design unit 1: mux8_2t1-logic File: N:/1b/ECE124/Lab/Lab2Proto/mux.vhd Line: 14
+    Info (12023): Found entity 1: mux8_2t1 File: N:/1b/ECE124/Lab/Lab2Proto/mux.vhd Line: 5
 Info (12021): Found 2 design units, including 1 entities, in source file logicalstep_lab2_top.vhd
-    Info (12022): Found design unit 1: LogicalStep_Lab2_top-SimpleCircuit File: N:/ECE124/Lab2/LogicalStep_Lab2_top.vhd Line: 18
-    Info (12023): Found entity 1: LogicalStep_Lab2_top File: N:/ECE124/Lab2/LogicalStep_Lab2_top.vhd Line: 6
+    Info (12022): Found design unit 1: LogicalStep_Lab2_top-SimpleCircuit File: N:/1b/ECE124/Lab/Lab2Proto/LogicalStep_Lab2_top.vhd Line: 18
+    Info (12023): Found entity 1: LogicalStep_Lab2_top File: N:/1b/ECE124/Lab/Lab2Proto/LogicalStep_Lab2_top.vhd Line: 6
 Info (12021): Found 2 design units, including 1 entities, in source file segment7_mux.vhd
-    Info (12022): Found design unit 1: segment7_mux-syn File: N:/ECE124/Lab2/segment7_mux.vhd Line: 67
-    Info (12023): Found entity 1: segment7_mux File: N:/ECE124/Lab2/segment7_mux.vhd Line: 52
+    Info (12022): Found design unit 1: segment7_mux-syn File: N:/1b/ECE124/Lab/Lab2Proto/segment7_mux.vhd Line: 67
+    Info (12023): Found entity 1: segment7_mux File: N:/1b/ECE124/Lab/Lab2Proto/segment7_mux.vhd Line: 52
 Info (12021): Found 2 design units, including 1 entities, in source file sevensegment.vhd
-    Info (12022): Found design unit 1: SevenSegment-Behavioral File: N:/ECE124/Lab2/SevenSegment.vhd Line: 18
-    Info (12023): Found entity 1: SevenSegment File: N:/ECE124/Lab2/SevenSegment.vhd Line: 10
+    Info (12022): Found design unit 1: SevenSegment-Behavioral File: N:/1b/ECE124/Lab/Lab2Proto/SevenSegment.vhd Line: 18
+    Info (12023): Found entity 1: SevenSegment File: N:/1b/ECE124/Lab/Lab2Proto/SevenSegment.vhd Line: 10
 Info (12021): Found 2 design units, including 1 entities, in source file adder4.vhd
-    Info (12022): Found design unit 1: adder4-logic File: N:/ECE124/Lab2/adder4.vhd Line: 14
-    Info (12023): Found entity 1: adder4 File: N:/ECE124/Lab2/adder4.vhd Line: 5
+    Info (12022): Found design unit 1: adder4-logic File: N:/1b/ECE124/Lab/Lab2Proto/adder4.vhd Line: 14
+    Info (12023): Found entity 1: adder4 File: N:/1b/ECE124/Lab/Lab2Proto/adder4.vhd Line: 5
 Info (12021): Found 2 design units, including 1 entities, in source file processor.vhd
-    Info (12022): Found design unit 1: processor-logic File: N:/ECE124/Lab2/processor.vhd Line: 14
-    Info (12023): Found entity 1: processor File: N:/ECE124/Lab2/processor.vhd Line: 5
+    Info (12022): Found design unit 1: processor-logic File: N:/1b/ECE124/Lab/Lab2Proto/processor.vhd Line: 14
+    Info (12023): Found entity 1: processor File: N:/1b/ECE124/Lab/Lab2Proto/processor.vhd Line: 5
 Info (12127): Elaborating entity "LogicalStep_Lab2_top" for the top level hierarchy
-Warning (10036): Verilog HDL or VHDL warning at LogicalStep_Lab2_top.vhd(86): object "zeros" assigned a value but never read File: N:/ECE124/Lab2/LogicalStep_Lab2_top.vhd Line: 86
-Info (12128): Elaborating entity "processor" for hierarchy "processor:pinst" File: N:/ECE124/Lab2/LogicalStep_Lab2_top.vhd Line: 102
-Info (12128): Elaborating entity "adder4" for hierarchy "adder4:adderInst" File: N:/ECE124/Lab2/LogicalStep_Lab2_top.vhd Line: 110
-Info (12128): Elaborating entity "mux8_2t1" for hierarchy "mux8_2t1:muxInst2" File: N:/ECE124/Lab2/LogicalStep_Lab2_top.vhd Line: 113
-Info (12128): Elaborating entity "SevenSegment" for hierarchy "SevenSegment:INST1" File: N:/ECE124/Lab2/LogicalStep_Lab2_top.vhd Line: 119
-Info (12128): Elaborating entity "segment7_mux" for hierarchy "segment7_mux:INST3" File: N:/ECE124/Lab2/LogicalStep_Lab2_top.vhd Line: 123
+Warning (10036): Verilog HDL or VHDL warning at LogicalStep_Lab2_top.vhd(86): object "zeros" assigned a value but never read File: N:/1b/ECE124/Lab/Lab2Proto/LogicalStep_Lab2_top.vhd Line: 86
+Info (12128): Elaborating entity "processor" for hierarchy "processor:pinst" File: N:/1b/ECE124/Lab/Lab2Proto/LogicalStep_Lab2_top.vhd Line: 102
+Info (12128): Elaborating entity "adder4" for hierarchy "adder4:adderInst" File: N:/1b/ECE124/Lab/Lab2Proto/LogicalStep_Lab2_top.vhd Line: 110
+Info (12128): Elaborating entity "mux8_2t1" for hierarchy "mux8_2t1:muxInst2" File: N:/1b/ECE124/Lab/Lab2Proto/LogicalStep_Lab2_top.vhd Line: 113
+Info (12128): Elaborating entity "SevenSegment" for hierarchy "SevenSegment:INST1" File: N:/1b/ECE124/Lab/Lab2Proto/LogicalStep_Lab2_top.vhd Line: 119
+Info (12128): Elaborating entity "segment7_mux" for hierarchy "segment7_mux:INST3" File: N:/1b/ECE124/Lab/Lab2Proto/LogicalStep_Lab2_top.vhd Line: 123
 Warning (13024): Output pins are stuck at VCC or GND
-    Warning (13410): Pin "leds[5]" is stuck at GND File: N:/ECE124/Lab2/LogicalStep_Lab2_top.vhd Line: 10
-    Warning (13410): Pin "leds[6]" is stuck at GND File: N:/ECE124/Lab2/LogicalStep_Lab2_top.vhd Line: 10
-    Warning (13410): Pin "leds[7]" is stuck at GND File: N:/ECE124/Lab2/LogicalStep_Lab2_top.vhd Line: 10
+    Warning (13410): Pin "leds[5]" is stuck at GND File: N:/1b/ECE124/Lab/Lab2Proto/LogicalStep_Lab2_top.vhd Line: 10
+    Warning (13410): Pin "leds[6]" is stuck at GND File: N:/1b/ECE124/Lab/Lab2Proto/LogicalStep_Lab2_top.vhd Line: 10
+    Warning (13410): Pin "leds[7]" is stuck at GND File: N:/1b/ECE124/Lab/Lab2Proto/LogicalStep_Lab2_top.vhd Line: 10
 Info (286030): Timing-Driven Synthesis is running
 Info (16010): Generating hard_block partition "hard_block:auto_generated_inst"
     Info (16011): Adding 0 node(s), including 0 DDIO, 0 PLL, 0 transceiver and 0 LCELL
@@ -334,9 +334,9 @@ Info (21057): Implemented 94 device resources after synthesis - the final resour
     Info (21059): Implemented 17 output pins
     Info (21061): Implemented 64 logic cells
 Info: Quartus Prime Analysis & Synthesis was successful. 0 errors, 5 warnings
-    Info: Peak virtual memory: 855 megabytes
-    Info: Processing ended: Fri Jan 26 17:06:42 2018
-    Info: Elapsed time: 00:00:15
-    Info: Total CPU time (on all processors): 00:00:22
+    Info: Peak virtual memory: 856 megabytes
+    Info: Processing ended: Thu Feb 08 20:30:30 2018
+    Info: Elapsed time: 00:00:16
+    Info: Total CPU time (on all processors): 00:00:23
 
 

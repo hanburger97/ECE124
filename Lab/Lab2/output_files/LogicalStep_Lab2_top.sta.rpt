@@ -1,5 +1,5 @@
 TimeQuest Timing Analyzer report for LogicalStep_Lab2_top
-Fri Jan 26 17:07:14 2018
+Thu Feb 08 20:31:05 2018
 Quartus Prime Version 15.1.0 Build 185 10/21/2015 SJ Standard Edition
 
 
@@ -183,8 +183,8 @@ No synchronizer chains to report.
 ; sw[0]        ; 3.3-V LVCMOS          ; 2640 ps         ; 2640 ps         ;
 ; pb[3]        ; 3.3-V LVCMOS          ; 2640 ps         ; 2640 ps         ;
 ; pb[2]        ; 3.3-V LVCMOS          ; 2640 ps         ; 2640 ps         ;
-; pb[1]        ; 3.3-V LVCMOS          ; 2640 ps         ; 2640 ps         ;
 ; pb[0]        ; 3.3-V LVCMOS          ; 2640 ps         ; 2640 ps         ;
+; pb[1]        ; 3.3-V LVCMOS          ; 2640 ps         ; 2640 ps         ;
 ; sw[1]        ; 3.3-V LVCMOS          ; 2640 ps         ; 2640 ps         ;
 ; sw[5]        ; 3.3-V LVCMOS          ; 2640 ps         ; 2640 ps         ;
 ; sw[2]        ; 3.3-V LVCMOS          ; 2640 ps         ; 2640 ps         ;
@@ -369,7 +369,7 @@ No non-DPA dedicated SERDES Receiver circuitry present in device or used in desi
 Info: *******************************************************************
 Info: Running Quartus Prime TimeQuest Timing Analyzer
     Info: Version 15.1.0 Build 185 10/21/2015 SJ Standard Edition
-    Info: Processing started: Fri Jan 26 17:07:12 2018
+    Info: Processing started: Thu Feb 08 20:31:02 2018
 Info: Command: quartus_sta LogicalStep_Lab2 -c LogicalStep_Lab2_top
 Info: qsta_default_script.tcl version: #1
 Info (20030): Parallel compilation is enabled and will use 2 of the 2 processors detected
@@ -402,8 +402,8 @@ Info (332102): Design is not fully constrained for setup requirements
 Info (332102): Design is not fully constrained for hold requirements
 Info: Quartus Prime TimeQuest Timing Analyzer was successful. 0 errors, 2 warnings
     Info: Peak virtual memory: 766 megabytes
-    Info: Processing ended: Fri Jan 26 17:07:14 2018
-    Info: Elapsed time: 00:00:02
+    Info: Processing ended: Thu Feb 08 20:31:05 2018
+    Info: Elapsed time: 00:00:03
     Info: Total CPU time (on all processors): 00:00:01
 
 

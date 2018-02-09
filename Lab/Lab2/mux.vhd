@@ -13,8 +13,11 @@ end mux8_2t1;
 
 architecture logic of mux8_2t1 is
 begin
+
+    -- IN1 should be the element to be selected when PB is pushed (since active low)
+
 	with SLCT select	 --Output  --SLCT
 	OTP	 <= 				IN1 when '0',
-								IN2 when '1';
+						    IN2 when '1';
 		
 end architecture logic;	

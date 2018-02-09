@@ -105,7 +105,7 @@ begin
 	--===================================== SEG7 Display Section===================================================
 	
 	-- Concatenation of hex_A and hex_B
-	hexAB <= hex_A & hex_B;
+	hexAB <= hex_B & hex_A;
 	-- Adder 4 bit
 	adderInst			: adder4 port map(hex_A, hex_B, sum);
 	
@@ -116,8 +116,8 @@ begin
 	
 	
 															-- outputs from MUX
-	INST1					: SevenSegment port map(muxout(3 downto 0), seg7_A);
-	INST2					: SevenSegment port map(muxout(7 downto 4), seg7_B);
+	INST1					: SevenSegment port map(muxout(3 downto 0), seg7_B);
+	INST2					: SevenSegment port map(muxout(7 downto 4), seg7_A);
 	
 	
 	INST3					: segment7_mux port map(

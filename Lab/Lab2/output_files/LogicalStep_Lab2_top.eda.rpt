@@ -1,5 +1,5 @@
 EDA Netlist Writer report for LogicalStep_Lab2_top
-Fri Jan 26 17:07:19 2018
+Thu Feb 08 20:31:09 2018
 Quartus Prime Version 15.1.0 Build 185 10/21/2015 SJ Standard Edition
 
 
@@ -37,7 +37,7 @@ agreement for further details.
 +-------------------------------------------------------------------+
 ; EDA Netlist Writer Summary                                        ;
 +---------------------------+---------------------------------------+
-; EDA Netlist Writer Status ; Successful - Fri Jan 26 17:07:19 2018 ;
+; EDA Netlist Writer Status ; Successful - Thu Feb 08 20:31:09 2018 ;
 ; Revision Name             ; LogicalStep_Lab2_top                  ;
 ; Top-level Entity Name     ; LogicalStep_Lab2_top                  ;
 ; Family                    ; MAX 10                                ;
@@ -67,13 +67,13 @@ agreement for further details.
 +---------------------------------------------------------------------------------------------------+------------------------+
 
 
-+-------------------------------------------------------------+
-; Simulation Generated Files                                  ;
-+-------------------------------------------------------------+
-; Generated Files                                             ;
-+-------------------------------------------------------------+
-; N:/ECE124/Lab2/simulation/modelsim/LogicalStep_Lab2_top.vho ;
-+-------------------------------------------------------------+
++-------------------------------------------------------------------------+
+; Simulation Generated Files                                              ;
++-------------------------------------------------------------------------+
+; Generated Files                                                         ;
++-------------------------------------------------------------------------+
+; N:/1b/ECE124/Lab/Lab2Proto/simulation/modelsim/LogicalStep_Lab2_top.vho ;
++-------------------------------------------------------------------------+
 
 
 +-----------------------------+
@@ -82,13 +82,13 @@ agreement for further details.
 Info: *******************************************************************
 Info: Running Quartus Prime EDA Netlist Writer
     Info: Version 15.1.0 Build 185 10/21/2015 SJ Standard Edition
-    Info: Processing started: Fri Jan 26 17:07:18 2018
+    Info: Processing started: Thu Feb 08 20:31:09 2018
 Info: Command: quartus_eda --read_settings_files=off --write_settings_files=off LogicalStep_Lab2 -c LogicalStep_Lab2_top
 Warning (10905): Generated the EDA functional simulation files although EDA timing simulation option is chosen.
-Info (204019): Generated file LogicalStep_Lab2_top.vho in folder "N:/ECE124/Lab2/simulation/modelsim/" for EDA simulation tool
+Info (204019): Generated file LogicalStep_Lab2_top.vho in folder "N:/1b/ECE124/Lab/Lab2Proto/simulation/modelsim/" for EDA simulation tool
 Info: Quartus Prime EDA Netlist Writer was successful. 0 errors, 1 warning
-    Info: Peak virtual memory: 704 megabytes
-    Info: Processing ended: Fri Jan 26 17:07:19 2018
+    Info: Peak virtual memory: 706 megabytes
+    Info: Processing ended: Thu Feb 08 20:31:10 2018
     Info: Elapsed time: 00:00:01
     Info: Total CPU time (on all processors): 00:00:01
 
