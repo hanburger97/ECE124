@@ -4,19 +4,28 @@ use ieee.numeric_std.all;
 
 
 entity Compx1 is port(
-    A       :   in  std_logic;
-    B       :   in  std_logic;
-    GT      :   out std_logic;
-    EQ      :   out std_logic;
-    LE      :   out std_logic
+    ai      :   in  std_logic;
+    bi      :   in  std_logic;
+
+    gi      :   in  std_logic;
+    ei      :   in  std_logic;
+    li      :   in  std_logic;
+
+    go      :   out std_logic;
+    eo      :   out std_logic;
+    lo      :   out std_logic
 );
 end Compx1;
 
-architecture logic of Compx1 is
+architecture logicCompx1 of Compx1 is
 
 begin
-    EQ <= (A='1' and B='1') or (A='0' and B='0');
-    GT <= (A='1' and B='0');
-    LE <= (A='0' and B='1');
-end architecture logic;
+
+
+    eo <= (ei and not(ai xor bi));
+    go <= (gi or (ei and ai and not(bi));
+    lo <= (li or (ei and not(ai) and bi);
+
+end architecture logicCompx1;
+
 
