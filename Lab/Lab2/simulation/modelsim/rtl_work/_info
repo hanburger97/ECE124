@@ -1,0 +1,32 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dN:/1b/ECE124/Lab/Lab2/simulation/modelsim
+Emux8_2t1
+w1518132287
+DPx4 ieee 11 numeric_std 0 22 :ASDNFgHXf_ih3J@9F3Ze1
+DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
+R0
+8N:/1b/ECE124/Lab/Lab2/mux.vhd
+FN:/1b/ECE124/Lab/Lab2/mux.vhd
+l0
+L5
+VTRj55;LA:88<KPR^c^mS>3
+!s100 ToAS;HKTO>WQ<:1GzhZDP3
+OV;C;10.4b;61
+31
+!s110 1518201480
+!i10b 1
+!s108 1518201477.000000
+!s90 -reportprogress|300|-93|-work|work|N:/1b/ECE124/Lab/Lab2/mux.vhd|
+!s107 N:/1b/ECE124/Lab/Lab2/mux.vhd|
+!i113 1
+o-93 -work work
+tExplicit 1

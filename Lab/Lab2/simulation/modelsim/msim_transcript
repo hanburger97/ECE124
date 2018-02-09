@@ -1,0 +1,33 @@
+# do LogicalStep_Lab2_top_run_msim_rtl_vhdl.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim ALTERA vmap 10.4b Lib Mapping Utility 2015.05 May 27 2015
+# vmap -modelsim_quiet work rtl_work 
+# Copying c:/software/Altera/15.1/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# ** Warning: Copied c:/software/Altera/15.1/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini.
+#          Updated modelsim.ini.
+# 
+# vcom -93 -work work {N:/1b/ECE124/Lab/Lab2/mux.vhd}
+# Model Technology ModelSim ALTERA vcom 10.4b Compiler 2015.05 May 27 2015
+# Start time: 13:37:57 on Feb 09,2018
+# vcom -reportprogress 300 -93 -work work N:/1b/ECE124/Lab/Lab2/mux.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity mux8_2t1
+# -- Compiling architecture logic of mux8_2t1
+# ** Error: N:/1b/ECE124/Lab/Lab2/mux.vhd(19): (vcom-1339) Selected signal assignment choices cover only 2 out of 9 cases.
+# 
+# ** Error: N:/1b/ECE124/Lab/Lab2/mux.vhd(23): VHDL Compiler exiting
+# End time: 13:38:00 on Feb 09,2018, Elapsed time: 0:00:03
+# Errors: 2, Warnings: 0
+# ** Error: c:/software/Altera/15.1/modelsim_ase/win32aloem/vcom failed.
+# Error in macro ./LogicalStep_Lab2_top_run_msim_rtl_vhdl.do line 8
+# c:/software/Altera/15.1/modelsim_ase/win32aloem/vcom failed.
+#     while executing
+# "vcom -93 -work work {N:/1b/ECE124/Lab/Lab2/mux.vhd}"
