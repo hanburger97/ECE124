@@ -15,7 +15,7 @@
       <file leaf-file-name="main.vhd" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/proto/main.vhd">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="834">
+            <state relative-caret-position="1380">
               <caret line="92" column="28" lean-forward="true" selection-start-line="92" selection-start-column="28" selection-end-line="92" selection-end-column="28" />
               <folding />
             </state>
@@ -595,12 +595,12 @@
       <option name="presentableId" value="Default" />
       <updated>1518121915305</updated>
       <workItem from="1518121920684" duration="29000" />
-      <workItem from="1518121965237" duration="3813000" />
+      <workItem from="1518121965237" duration="3924000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3842000" />
+    <option name="totallyTimeSpent" value="3953000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="819" y="0" width="861" height="1050" extended-state="6" />
@@ -714,7 +714,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/proto/main.vhd">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="834">
+        <state relative-caret-position="1380">
           <caret line="92" column="28" lean-forward="true" selection-start-line="92" selection-start-column="28" selection-end-line="92" selection-end-column="28" />
           <folding />
         </state>
