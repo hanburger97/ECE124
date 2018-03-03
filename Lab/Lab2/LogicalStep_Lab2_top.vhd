@@ -16,9 +16,9 @@ entity LogicalStep_Lab2_top is port (
 end LogicalStep_Lab2_top;
 
 architecture SimpleCircuit of LogicalStep_Lab2_top is
---
--- Components Used ---
-------------------------------------------------------------------- 
+
+
+---- Components Used ---------------------------------------------------------------------- 
   component SevenSegment port (
    hex   		:  in  std_logic_vector(3 downto 0);   -- The 4 bit data to be displayed
    sevenseg 	:  out std_logic_vector(6 downto 0)    -- 7-bit outputs to a 7-segment
