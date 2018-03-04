@@ -22,9 +22,9 @@ architecture logicCompx1 of Compx1 is
 begin
 
 
-    eo <= (ei and (not(ai xor bi)));
-    go <= (gi or (ei and ai and (not bi)));
-    lo <= (li or (ei and (not ai) and bi));
+    eo <= (ei and not(ai xor bi));
+    go <= (gi or (ei and ai and not(bi));
+    lo <= (li or (ei and not(ai) and bi);
 
 end architecture logicCompx1;
 
