@@ -7,9 +7,6 @@ entity Compx1 is port(
     ai      :   in  std_logic;
     bi      :   in  std_logic;
 
-    gi      :   in  std_logic;
-    ei      :   in  std_logic;
-    li      :   in  std_logic;
 
     go      :   out std_logic;
     eo      :   out std_logic;
@@ -22,9 +19,9 @@ architecture logicCompx1 of Compx1 is
 begin
 
 
-    eo <= (ei and (not(ai xor bi)));
-    go <= (gi or (ei and ai and (not bi)));
-    lo <= (li or (ei and (not ai) and bi));
+    eo <= (ai and bi) or (not(ai) and not(bi));
+    go <= ai and not(bi);
+    lo <= not(ai) and bi;
 
 end architecture logicCompx1;
 
