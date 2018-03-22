@@ -1,5 +1,5 @@
 Analysis & Synthesis report for LogicalStep_Lab3_top
-Sun Mar 04 18:17:45 2018
+Thu Mar 08 14:44:18 2018
 Quartus Prime Version 15.1.0 Build 185 10/21/2015 SJ Standard Edition
 
 
@@ -14,11 +14,9 @@ Quartus Prime Version 15.1.0 Build 185 10/21/2015 SJ Standard Edition
   6. Analysis & Synthesis Resource Usage Summary
   7. Analysis & Synthesis Resource Utilization by Entity
   8. General Register Statistics
-  9. Port Connectivity Checks: "Thermostat:thermostatInstance|Compx4:compx4inst|Compx1:b2"
- 10. Port Connectivity Checks: "Thermostat:thermostatInstance|Compx4:compx4inst|Compx1:b3"
- 11. Post-Synthesis Netlist Statistics for Top Partition
- 12. Elapsed Time Per Partition
- 13. Analysis & Synthesis Messages
+  9. Post-Synthesis Netlist Statistics for Top Partition
+ 10. Elapsed Time Per Partition
+ 11. Analysis & Synthesis Messages
 
 
 
@@ -45,13 +43,13 @@ agreement for further details.
 +--------------------------------------------------------------------------------------+
 ; Analysis & Synthesis Summary                                                         ;
 +------------------------------------+-------------------------------------------------+
-; Analysis & Synthesis Status        ; Successful - Sun Mar 04 18:17:45 2018           ;
+; Analysis & Synthesis Status        ; Successful - Thu Mar 08 14:44:17 2018           ;
 ; Quartus Prime Version              ; 15.1.0 Build 185 10/21/2015 SJ Standard Edition ;
 ; Revision Name                      ; LogicalStep_Lab3_top                            ;
 ; Top-level Entity Name              ; LogicalStep_Lab3_top                            ;
 ; Family                             ; MAX 10                                          ;
-; Total logic elements               ; 36                                              ;
-;     Total combinational functions  ; 36                                              ;
+; Total logic elements               ; 46                                              ;
+;     Total combinational functions  ; 46                                              ;
 ;     Dedicated logic registers      ; 11                                              ;
 ; Total registers                    ; 11                                              ;
 ; Total pins                         ; 30                                              ;
@@ -187,16 +185,16 @@ agreement for further details.
 +---------------------------------------------+----------------+
 ; Resource                                    ; Usage          ;
 +---------------------------------------------+----------------+
-; Estimated Total logic elements              ; 36             ;
+; Estimated Total logic elements              ; 46             ;
 ;                                             ;                ;
-; Total combinational functions               ; 36             ;
+; Total combinational functions               ; 46             ;
 ; Logic element usage by number of LUT inputs ;                ;
-;     -- 4 input functions                    ; 16             ;
-;     -- 3 input functions                    ; 10             ;
-;     -- <=2 input functions                  ; 10             ;
+;     -- 4 input functions                    ; 24             ;
+;     -- 3 input functions                    ; 11             ;
+;     -- <=2 input functions                  ; 11             ;
 ;                                             ;                ;
 ; Logic elements by mode                      ;                ;
-;     -- normal mode                          ; 27             ;
+;     -- normal mode                          ; 37             ;
 ;     -- arithmetic mode                      ; 9              ;
 ;                                             ;                ;
 ; Total registers                             ; 11             ;
@@ -209,22 +207,23 @@ agreement for further details.
 ;                                             ;                ;
 ; Maximum fan-out node                        ; clkin_50~input ;
 ; Maximum fan-out                             ; 11             ;
-; Total fan-out                               ; 178            ;
-; Average fan-out                             ; 1.66           ;
+; Total fan-out                               ; 217            ;
+; Average fan-out                             ; 1.85           ;
 +---------------------------------------------+----------------+
 
 
-+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-; Analysis & Synthesis Resource Utilization by Entity                                                                                                                                                                                           ;
-+------------------------------------+-------------------+--------------+-------------+------------+--------------+---------+-----------+------+--------------+------------+-----------------------------------------------------+--------------+
-; Compilation Hierarchy Node         ; LC Combinationals ; LC Registers ; Memory Bits ; UFM Blocks ; DSP Elements ; DSP 9x9 ; DSP 18x18 ; Pins ; Virtual Pins ; ADC blocks ; Full Hierarchy Name                                 ; Library Name ;
-+------------------------------------+-------------------+--------------+-------------+------------+--------------+---------+-----------+------+--------------+------------+-----------------------------------------------------+--------------+
-; |LogicalStep_Lab3_top              ; 36 (0)            ; 11 (0)       ; 0           ; 0          ; 0            ; 0       ; 0         ; 30   ; 0            ; 0          ; |LogicalStep_Lab3_top                               ; work         ;
-;    |SevenSegment:sevenmux1|        ; 7 (7)             ; 0 (0)        ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |LogicalStep_Lab3_top|SevenSegment:sevenmux1        ; work         ;
-;    |SevenSegment:sevenmux2|        ; 7 (7)             ; 0 (0)        ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |LogicalStep_Lab3_top|SevenSegment:sevenmux2        ; work         ;
-;    |Thermostat:thermostatInstance| ; 4 (4)             ; 0 (0)        ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |LogicalStep_Lab3_top|Thermostat:thermostatInstance ; work         ;
-;    |segment7_mux:display|          ; 18 (18)           ; 11 (11)      ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |LogicalStep_Lab3_top|segment7_mux:display          ; work         ;
-+------------------------------------+-------------------+--------------+-------------+------------+--------------+---------+-----------+------+--------------+------------+-----------------------------------------------------+--------------+
++-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Analysis & Synthesis Resource Utilization by Entity                                                                                                                                                                                                             ;
++------------------------------------+-------------------+--------------+-------------+------------+--------------+---------+-----------+------+--------------+------------+-----------------------------------------------------------------------+--------------+
+; Compilation Hierarchy Node         ; LC Combinationals ; LC Registers ; Memory Bits ; UFM Blocks ; DSP Elements ; DSP 9x9 ; DSP 18x18 ; Pins ; Virtual Pins ; ADC blocks ; Full Hierarchy Name                                                   ; Library Name ;
++------------------------------------+-------------------+--------------+-------------+------------+--------------+---------+-----------+------+--------------+------------+-----------------------------------------------------------------------+--------------+
+; |LogicalStep_Lab3_top              ; 46 (0)            ; 11 (0)       ; 0           ; 0          ; 0            ; 0       ; 0         ; 30   ; 0            ; 0          ; |LogicalStep_Lab3_top                                                 ; work         ;
+;    |SevenSegment:sevenmux1|        ; 7 (7)             ; 0 (0)        ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |LogicalStep_Lab3_top|SevenSegment:sevenmux1                          ; work         ;
+;    |SevenSegment:sevenmux2|        ; 7 (7)             ; 0 (0)        ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |LogicalStep_Lab3_top|SevenSegment:sevenmux2                          ; work         ;
+;    |Thermostat:thermostatInstance| ; 14 (5)            ; 0 (0)        ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |LogicalStep_Lab3_top|Thermostat:thermostatInstance                   ; work         ;
+;       |Compx4:compx4inst|          ; 9 (9)             ; 0 (0)        ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |LogicalStep_Lab3_top|Thermostat:thermostatInstance|Compx4:compx4inst ; work         ;
+;    |segment7_mux:display|          ; 18 (18)           ; 11 (11)      ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |LogicalStep_Lab3_top|segment7_mux:display                            ; work         ;
++------------------------------------+-------------------+--------------+-------------+------------+--------------+---------+-----------+------+--------------+------------+-----------------------------------------------------------------------+--------------+
 Note: For table entries with two numbers listed, the numbers in parentheses indicate the number of resources of the given type used by the specific entity alone. The numbers listed outside of parentheses indicate the total resources of the given type used by the specific entity and all of its sub-entities in the hierarchy.
 
 
@@ -243,26 +242,6 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 +----------------------------------------------+-------+
 
 
-+----------------------------------------------------------------------------------------------------------------+
-; Port Connectivity Checks: "Thermostat:thermostatInstance|Compx4:compx4inst|Compx1:b2"                          ;
-+------+--------+----------+-------------------------------------------------------------------------------------+
-; Port ; Type   ; Severity ; Details                                                                             ;
-+------+--------+----------+-------------------------------------------------------------------------------------+
-; lo   ; Output ; Info     ; Connected to dangling logic. Logic that only feeds a dangling port will be removed. ;
-+------+--------+----------+-------------------------------------------------------------------------------------+
-
-
-+---------------------------------------------------------------------------------------+
-; Port Connectivity Checks: "Thermostat:thermostatInstance|Compx4:compx4inst|Compx1:b3" ;
-+------+-------+----------+-------------------------------------------------------------+
-; Port ; Type  ; Severity ; Details                                                     ;
-+------+-------+----------+-------------------------------------------------------------+
-; gi   ; Input ; Info     ; Stuck at GND                                                ;
-; ei   ; Input ; Info     ; Stuck at VCC                                                ;
-; li   ; Input ; Info     ; Stuck at GND                                                ;
-+------+-------+----------+-------------------------------------------------------------+
-
-
 +-----------------------------------------------------+
 ; Post-Synthesis Netlist Statistics for Top Partition ;
 +-----------------------+-----------------------------+
@@ -272,18 +251,19 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 ; cycloneiii_ff         ; 11                          ;
 ;     plain             ; 11                          ;
 ; cycloneiii_io_obuf    ; 3                           ;
-; cycloneiii_lcell_comb ; 45                          ;
+; cycloneiii_lcell_comb ; 55                          ;
 ;     arith             ; 9                           ;
 ;         2 data inputs ; 8                           ;
 ;         3 data inputs ; 1                           ;
-;     normal            ; 36                          ;
+;     normal            ; 46                          ;
 ;         0 data inputs ; 1                           ;
 ;         1 data inputs ; 10                          ;
-;         3 data inputs ; 9                           ;
-;         4 data inputs ; 16                          ;
+;         2 data inputs ; 1                           ;
+;         3 data inputs ; 10                          ;
+;         4 data inputs ; 24                          ;
 ;                       ;                             ;
 ; Max LUT depth         ; 3.00                        ;
-; Average LUT depth     ; 2.01                        ;
+; Average LUT depth     ; 2.12                        ;
 +-----------------------+-----------------------------+
 
 
@@ -302,7 +282,7 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 Info: *******************************************************************
 Info: Running Quartus Prime Analysis & Synthesis
     Info: Version 15.1.0 Build 185 10/21/2015 SJ Standard Edition
-    Info: Processing started: Sun Mar 04 18:17:31 2018
+    Info: Processing started: Thu Mar 08 14:44:03 2018
 Info: Command: quartus_map --read_settings_files=on --write_settings_files=off LogicalStep_Lab3 -c LogicalStep_Lab3_top
 Info (20030): Parallel compilation is enabled and will use 2 of the 2 processors detected
 Info (12021): Found 2 design units, including 1 entities, in source file segment7_mux.vhd
@@ -312,11 +292,11 @@ Info (12021): Found 2 design units, including 1 entities, in source file compx4.
     Info (12022): Found design unit 1: Compx4-logicCompx4 File: N:/1b/ECE124/Lab/Lab3/Compx4.vhd Line: 15
     Info (12023): Found entity 1: Compx4 File: N:/1b/ECE124/Lab/Lab3/Compx4.vhd Line: 6
 Info (12021): Found 2 design units, including 1 entities, in source file compx1.vhd
-    Info (12022): Found design unit 1: Compx1-logicCompx1 File: N:/1b/ECE124/Lab/Lab3/Compx1.vhd Line: 20
+    Info (12022): Found design unit 1: Compx1-logicCompx1 File: N:/1b/ECE124/Lab/Lab3/Compx1.vhd Line: 17
     Info (12023): Found entity 1: Compx1 File: N:/1b/ECE124/Lab/Lab3/Compx1.vhd Line: 6
 Info (12021): Found 2 design units, including 1 entities, in source file logicalstep_lab3_top.vhd
-    Info (12022): Found design unit 1: LogicalStep_Lab3_top-Energy_Monitor File: N:/1b/ECE124/Lab/Lab3/LogicalStep_Lab3_top.vhd Line: 24
-    Info (12023): Found entity 1: LogicalStep_Lab3_top File: N:/1b/ECE124/Lab/Lab3/LogicalStep_Lab3_top.vhd Line: 12
+    Info (12022): Found design unit 1: LogicalStep_Lab3_top-Energy_Monitor File: N:/1b/ECE124/Lab/Lab3/LogicalStep_Lab3_top.vhd Line: 18
+    Info (12023): Found entity 1: LogicalStep_Lab3_top File: N:/1b/ECE124/Lab/Lab3/LogicalStep_Lab3_top.vhd Line: 6
 Info (12021): Found 2 design units, including 1 entities, in source file sevensegment.vhd
     Info (12022): Found design unit 1: SevenSegment-Behavioral File: N:/1b/ECE124/Lab/Lab3/SevenSegment.vhd Line: 18
     Info (12023): Found entity 1: SevenSegment File: N:/1b/ECE124/Lab/Lab3/SevenSegment.vhd Line: 10
@@ -324,30 +304,27 @@ Info (12021): Found 2 design units, including 1 entities, in source file thermos
     Info (12022): Found design unit 1: Thermostat-Logic File: N:/1b/ECE124/Lab/Lab3/Thermostat.vhd Line: 16
     Info (12023): Found entity 1: Thermostat File: N:/1b/ECE124/Lab/Lab3/Thermostat.vhd Line: 6
 Info (12127): Elaborating entity "LogicalStep_Lab3_top" for the top level hierarchy
-Warning (10873): Using initial value X (don't care) for net "leds[7]" at LogicalStep_Lab3_top.vhd(16) File: N:/1b/ECE124/Lab/Lab3/LogicalStep_Lab3_top.vhd Line: 16
-Info (12128): Elaborating entity "Thermostat" for hierarchy "Thermostat:thermostatInstance" File: N:/1b/ECE124/Lab/Lab3/LogicalStep_Lab3_top.vhd Line: 80
-Info (12128): Elaborating entity "Compx4" for hierarchy "Thermostat:thermostatInstance|Compx4:compx4inst" File: N:/1b/ECE124/Lab/Lab3/Thermostat.vhd Line: 37
-Warning (10036): Verilog HDL or VHDL warning at Compx4.vhd(36): object "l2" assigned a value but never read File: N:/1b/ECE124/Lab/Lab3/Compx4.vhd Line: 36
-Info (12128): Elaborating entity "Compx1" for hierarchy "Thermostat:thermostatInstance|Compx4:compx4inst|Compx1:b3" File: N:/1b/ECE124/Lab/Lab3/Compx4.vhd Line: 46
-Info (12128): Elaborating entity "SevenSegment" for hierarchy "SevenSegment:sevenmux1" File: N:/1b/ECE124/Lab/Lab3/LogicalStep_Lab3_top.vhd Line: 83
-Info (12128): Elaborating entity "segment7_mux" for hierarchy "segment7_mux:display" File: N:/1b/ECE124/Lab/Lab3/LogicalStep_Lab3_top.vhd Line: 86
+Warning (10873): Using initial value X (don't care) for net "leds[7]" at LogicalStep_Lab3_top.vhd(10) File: N:/1b/ECE124/Lab/Lab3/LogicalStep_Lab3_top.vhd Line: 10
+Info (12128): Elaborating entity "Thermostat" for hierarchy "Thermostat:thermostatInstance" File: N:/1b/ECE124/Lab/Lab3/LogicalStep_Lab3_top.vhd Line: 74
+Info (12128): Elaborating entity "Compx4" for hierarchy "Thermostat:thermostatInstance|Compx4:compx4inst" File: N:/1b/ECE124/Lab/Lab3/Thermostat.vhd Line: 35
+Info (12128): Elaborating entity "Compx1" for hierarchy "Thermostat:thermostatInstance|Compx4:compx4inst|Compx1:inst0" File: N:/1b/ECE124/Lab/Lab3/Compx4.vhd Line: 38
+Info (12128): Elaborating entity "SevenSegment" for hierarchy "SevenSegment:sevenmux1" File: N:/1b/ECE124/Lab/Lab3/LogicalStep_Lab3_top.vhd Line: 80
+Info (12128): Elaborating entity "segment7_mux" for hierarchy "segment7_mux:display" File: N:/1b/ECE124/Lab/Lab3/LogicalStep_Lab3_top.vhd Line: 83
 Warning (13024): Output pins are stuck at VCC or GND
-    Warning (13410): Pin "leds[1]" is stuck at GND File: N:/1b/ECE124/Lab/Lab3/LogicalStep_Lab3_top.vhd Line: 16
-    Warning (13410): Pin "leds[2]" is stuck at GND File: N:/1b/ECE124/Lab/Lab3/LogicalStep_Lab3_top.vhd Line: 16
-    Warning (13410): Pin "leds[7]" is stuck at GND File: N:/1b/ECE124/Lab/Lab3/LogicalStep_Lab3_top.vhd Line: 16
+    Warning (13410): Pin "leds[7]" is stuck at GND File: N:/1b/ECE124/Lab/Lab3/LogicalStep_Lab3_top.vhd Line: 10
 Info (286030): Timing-Driven Synthesis is running
 Info (16010): Generating hard_block partition "hard_block:auto_generated_inst"
     Info (16011): Adding 0 node(s), including 0 DDIO, 0 PLL, 0 transceiver and 0 LCELL
 Warning (21074): Design contains 1 input pin(s) that do not drive logic
-    Warning (15610): No output dependent on input pin "pb[3]" File: N:/1b/ECE124/Lab/Lab3/LogicalStep_Lab3_top.vhd Line: 14
-Info (21057): Implemented 66 device resources after synthesis - the final resource count might be different
+    Warning (15610): No output dependent on input pin "pb[3]" File: N:/1b/ECE124/Lab/Lab3/LogicalStep_Lab3_top.vhd Line: 8
+Info (21057): Implemented 76 device resources after synthesis - the final resource count might be different
     Info (21058): Implemented 13 input pins
     Info (21059): Implemented 17 output pins
-    Info (21061): Implemented 36 logic cells
-Info: Quartus Prime Analysis & Synthesis was successful. 0 errors, 8 warnings
-    Info: Peak virtual memory: 856 megabytes
-    Info: Processing ended: Sun Mar 04 18:17:45 2018
-    Info: Elapsed time: 00:00:14
+    Info (21061): Implemented 46 logic cells
+Info: Quartus Prime Analysis & Synthesis was successful. 0 errors, 5 warnings
+    Info: Peak virtual memory: 858 megabytes
+    Info: Processing ended: Thu Mar 08 14:44:18 2018
+    Info: Elapsed time: 00:00:15
     Info: Total CPU time (on all processors): 00:00:22
 
 
