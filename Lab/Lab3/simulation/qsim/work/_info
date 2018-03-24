@@ -9,13 +9,13 @@ z2
 cModel Technology
 Z0 dN:/1b/ECE124/Lab/Lab3/simulation/qsim
 vLogicalStep_Lab3_top
-Z1 !s110 1520202136
+Z1 !s110 1520620048
 !i10b 1
-!s100 WofmhGfnlmXkJ=46dRK^41
-IZZ:U6_]e^mY^_V8UHlVQG1
+!s100 `1495g8=mG9SoYfj`h<g]1
+IZAjPNld8hT^PWncLHA4GP2
 Z2 VDg1SIo80bB@j0V0VzS_@n1
 R0
-w1520202135
+w1520620047
 8LogicalStep_Lab3_top.vo
 FLogicalStep_Lab3_top.vo
 L0 32
@@ -23,7 +23,7 @@ Z3 OV;L;10.4b;61
 r1
 !s85 0
 31
-Z4 !s108 1520202136.000000
+Z4 !s108 1520620048.000000
 !s107 LogicalStep_Lab3_top.vo|
 !s90 -work|work|LogicalStep_Lab3_top.vo|
 !i113 1
@@ -32,21 +32,21 @@ n@logical@step_@lab3_top
 vLogicalStep_Lab3_top_vlg_vec_tst
 R1
 !i10b 1
-!s100 zKK:XPPMV]adHzn]EgkMl2
-IjGgg:RLU4dA^EI?U1?EOV2
+!s100 PhF1WFW]]@^aK2k[9g_1W1
+IXXDWj=nBQPI5e0bjMT>Z^1
 R2
 R0
-w1520202132
-8Compx4_Simulation.vwf.vt
-FCompx4_Simulation.vwf.vt
+w1520620043
+8Compx4New.vwf.vt
+FCompx4New.vwf.vt
 L0 30
 R3
 r1
 !s85 0
 31
 R4
-!s107 Compx4_Simulation.vwf.vt|
-!s90 -work|work|Compx4_Simulation.vwf.vt|
+!s107 Compx4New.vwf.vt|
+!s90 -work|work|Compx4New.vwf.vt|
 !i113 1
 R5
 n@logical@step_@lab3_top_vlg_vec_tst

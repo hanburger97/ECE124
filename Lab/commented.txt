@@ -1,0 +1,16 @@
+--
+--bidirshiftreg : Bidir_shift_reg port map(
+--														Main_CLK,
+--														rst_n,
+--														pb(1),
+--														pb(0),
+--														leds(7 downto 0)
+--														);
+													
+bincounter4bit : Bin_Counter4bit port map(
+														Main_CLK,
+														rst_n,
+														pb(1),
+														pb(0),
+														leds(7 downto 0)
+														);

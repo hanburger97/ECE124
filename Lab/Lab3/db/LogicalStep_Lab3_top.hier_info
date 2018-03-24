@@ -20,23 +20,23 @@ sw[6] => Thermostat:thermostatInstance.DT[2]
 sw[6] => SevenSegment:sevenmux1.hex[2]
 sw[7] => Thermostat:thermostatInstance.DT[3]
 sw[7] => SevenSegment:sevenmux1.hex[3]
-leds[0] <= Thermostat:thermostatInstance.OTP[0]
-leds[1] <= Thermostat:thermostatInstance.OTP[1]
-leds[2] <= Thermostat:thermostatInstance.OTP[2]
-leds[3] <= Thermostat:thermostatInstance.OTP[3]
-leds[4] <= Thermostat:thermostatInstance.OTP[4]
-leds[5] <= Thermostat:thermostatInstance.OTP[5]
-leds[6] <= Thermostat:thermostatInstance.OTP[6]
-leds[7] <= <GND>
-seg7_data[0] <= segment7_mux:display.DOUT[0]
-seg7_data[1] <= segment7_mux:display.DOUT[1]
-seg7_data[2] <= segment7_mux:display.DOUT[2]
-seg7_data[3] <= segment7_mux:display.DOUT[3]
-seg7_data[4] <= segment7_mux:display.DOUT[4]
-seg7_data[5] <= segment7_mux:display.DOUT[5]
-seg7_data[6] <= segment7_mux:display.DOUT[6]
-seg7_char1 <= segment7_mux:display.DIG2
-seg7_char2 <= segment7_mux:display.DIG1
+leds[0] << Thermostat:thermostatInstance.OTP[0]
+leds[1] << Thermostat:thermostatInstance.OTP[1]
+leds[2] << Thermostat:thermostatInstance.OTP[2]
+leds[3] << Thermostat:thermostatInstance.OTP[3]
+leds[4] << Thermostat:thermostatInstance.OTP[4]
+leds[5] << Thermostat:thermostatInstance.OTP[5]
+leds[6] << Thermostat:thermostatInstance.OTP[6]
+leds[7] << <GND>
+seg7_data[0] << segment7_mux:display.DOUT[0]
+seg7_data[1] << segment7_mux:display.DOUT[1]
+seg7_data[2] << segment7_mux:display.DOUT[2]
+seg7_data[3] << segment7_mux:display.DOUT[3]
+seg7_data[4] << segment7_mux:display.DOUT[4]
+seg7_data[5] << segment7_mux:display.DOUT[5]
+seg7_data[6] << segment7_mux:display.DOUT[6]
+seg7_char1 << segment7_mux:display.DIG2
+seg7_char2 << segment7_mux:display.DIG1
 
 
 |LogicalStep_Lab3_top|Thermostat:thermostatInstance
@@ -64,82 +64,70 @@ OTP[6] <= OP[2].DB_MAX_OUTPUT_PORT_TYPE
 
 
 |LogicalStep_Lab3_top|Thermostat:thermostatInstance|Compx4:compx4inst
-A[0] => Compx1:b0.ai
-A[1] => Compx1:b1.ai
-A[2] => Compx1:b2.ai
-A[3] => Compx1:b3.ai
-B[0] => Compx1:b0.bi
-B[1] => Compx1:b1.bi
-B[2] => Compx1:b2.bi
-B[3] => Compx1:b3.bi
-GT <= Compx1:b0.go
-EQ <= Compx1:b0.eo
-LE <= Compx1:b0.lo
+A[0] => Compx1:inst0.ai
+A[1] => Compx1:inst1.ai
+A[2] => Compx1:inst2.ai
+A[3] => Compx1:inst3.ai
+B[0] => Compx1:inst0.bi
+B[1] => Compx1:inst1.bi
+B[2] => Compx1:inst2.bi
+B[3] => Compx1:inst3.bi
+GT <= GT.DB_MAX_OUTPUT_PORT_TYPE
+EQ <= EQ.DB_MAX_OUTPUT_PORT_TYPE
+LE <= LE.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|LogicalStep_Lab3_top|Thermostat:thermostatInstance|Compx4:compx4inst|Compx1:b3
+|LogicalStep_Lab3_top|Thermostat:thermostatInstance|Compx4:compx4inst|Compx1:inst0
 ai => eo.IN0
 ai => go.IN0
+ai => eo.IN0
 ai => lo.IN0
 bi => eo.IN1
 bi => lo.IN1
 bi => go.IN1
-gi => go.IN1
-ei => eo.IN1
-ei => go.IN1
-ei => lo.IN1
-li => lo.IN1
+bi => eo.IN1
 go <= go.DB_MAX_OUTPUT_PORT_TYPE
 eo <= eo.DB_MAX_OUTPUT_PORT_TYPE
 lo <= lo.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|LogicalStep_Lab3_top|Thermostat:thermostatInstance|Compx4:compx4inst|Compx1:b2
+|LogicalStep_Lab3_top|Thermostat:thermostatInstance|Compx4:compx4inst|Compx1:inst1
 ai => eo.IN0
 ai => go.IN0
+ai => eo.IN0
 ai => lo.IN0
 bi => eo.IN1
 bi => lo.IN1
 bi => go.IN1
-gi => go.IN1
-ei => eo.IN1
-ei => go.IN1
-ei => lo.IN1
-li => lo.IN1
+bi => eo.IN1
 go <= go.DB_MAX_OUTPUT_PORT_TYPE
 eo <= eo.DB_MAX_OUTPUT_PORT_TYPE
 lo <= lo.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|LogicalStep_Lab3_top|Thermostat:thermostatInstance|Compx4:compx4inst|Compx1:b1
+|LogicalStep_Lab3_top|Thermostat:thermostatInstance|Compx4:compx4inst|Compx1:inst2
 ai => eo.IN0
 ai => go.IN0
+ai => eo.IN0
 ai => lo.IN0
 bi => eo.IN1
 bi => lo.IN1
 bi => go.IN1
-gi => go.IN1
-ei => eo.IN1
-ei => go.IN1
-ei => lo.IN1
-li => lo.IN1
+bi => eo.IN1
 go <= go.DB_MAX_OUTPUT_PORT_TYPE
 eo <= eo.DB_MAX_OUTPUT_PORT_TYPE
 lo <= lo.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|LogicalStep_Lab3_top|Thermostat:thermostatInstance|Compx4:compx4inst|Compx1:b0
+|LogicalStep_Lab3_top|Thermostat:thermostatInstance|Compx4:compx4inst|Compx1:inst3
 ai => eo.IN0
 ai => go.IN0
+ai => eo.IN0
 ai => lo.IN0
 bi => eo.IN1
 bi => lo.IN1
 bi => go.IN1
-gi => go.IN1
-ei => eo.IN1
-ei => go.IN1
-ei => lo.IN1
-li => lo.IN1
+bi => eo.IN1
 go <= go.DB_MAX_OUTPUT_PORT_TYPE
 eo <= eo.DB_MAX_OUTPUT_PORT_TYPE
 lo <= lo.DB_MAX_OUTPUT_PORT_TYPE

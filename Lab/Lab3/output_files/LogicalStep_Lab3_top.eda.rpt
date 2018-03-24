@@ -1,5 +1,5 @@
 EDA Netlist Writer report for LogicalStep_Lab3_top
-Sun Mar 04 17:22:15 2018
+Fri Mar 09 13:27:27 2018
 Quartus Prime Version 15.1.0 Build 185 10/21/2015 SJ Standard Edition
 
 
@@ -37,7 +37,7 @@ agreement for further details.
 +-------------------------------------------------------------------+
 ; EDA Netlist Writer Summary                                        ;
 +---------------------------+---------------------------------------+
-; EDA Netlist Writer Status ; Successful - Sun Mar 04 17:22:15 2018 ;
+; EDA Netlist Writer Status ; Successful - Fri Mar 09 13:27:27 2018 ;
 ; Revision Name             ; LogicalStep_Lab3_top                  ;
 ; Top-level Entity Name     ; LogicalStep_Lab3_top                  ;
 ; Family                    ; MAX 10                                ;
@@ -95,13 +95,12 @@ Info: Running Quartus Prime EDA Netlist Writer
     Info: devices manufactured by Altera and sold by Altera or its 
     Info: authorized distributors.  Please refer to the applicable 
     Info: agreement for further details.
-    Info: Processing started: Sun Mar 04 17:22:14 2018
+    Info: Processing started: Fri Mar 09 13:27:26 2018
 Info: Command: quartus_eda --write_settings_files=off --functional=on --flatten_buses=off --simulation=on --tool=modelsim_oem --format=verilog --output_directory=N:/1b/ECE124/Lab/Lab3/simulation/qsim/ LogicalStep_Lab3 -c LogicalStep_Lab3_top
-Info (119006): Selected device 10M08SAE144C8G for design "LogicalStep_Lab3_top"
 Info (204019): Generated file LogicalStep_Lab3_top.vo in folder "N:/1b/ECE124/Lab/Lab3/simulation/qsim//" for EDA simulation tool
 Info: Quartus Prime EDA Netlist Writer was successful. 0 errors, 0 warnings
-    Info: Peak virtual memory: 718 megabytes
-    Info: Processing ended: Sun Mar 04 17:22:15 2018
+    Info: Peak virtual memory: 704 megabytes
+    Info: Processing ended: Fri Mar 09 13:27:27 2018
     Info: Elapsed time: 00:00:01
     Info: Total CPU time (on all processors): 00:00:01
 

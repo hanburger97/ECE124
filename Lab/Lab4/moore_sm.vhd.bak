@@ -1,0 +1,30 @@
+library ieee;
+use ieee.std_logic_1164.all;
+use ieee.numeric_std.all;
+
+entity MooreSM is port(
+);
+end entity;
+
+
+architecture mosm of MealySM is
+
+type STATES is (s0, s1);
+
+signal curr, nxt : STATES;
+
+begin
+
+RegisterSection: process()
+	begin
+	end process;
+
+TransitionSection: process()
+	begin
+	end process;
+	
+DecoderSection: process()
+	begin
+	end process;
+
+end architecture sosm;

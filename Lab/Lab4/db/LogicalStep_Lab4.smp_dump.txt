@@ -1,0 +1,17 @@
+
+State Machine - |LogicalStep_Lab4_top|MooreSM1:extenderInstance|curr
+Name curr.RET3 curr.RET2 curr.RET1 curr.EXT1 curr.EXTENDED curr.EXT3 curr.EXT2 curr.RETRACTED 
+curr.RETRACTED 0 0 0 0 0 0 0 0 
+curr.EXT2 0 0 0 0 0 0 1 1 
+curr.EXT3 0 0 0 0 0 1 0 1 
+curr.EXTENDED 0 0 0 0 1 0 0 1 
+curr.EXT1 0 0 0 1 0 0 0 1 
+curr.RET1 0 0 1 0 0 0 0 1 
+curr.RET2 0 1 0 0 0 0 0 1 
+curr.RET3 1 0 0 0 0 0 0 1 
+
+State Machine - |LogicalStep_Lab4_top|MealySM:mealysmInstance|curr
+Name curr.s2 curr.s1 curr.s0 
+curr.s0 0 0 0 
+curr.s1 0 1 1 
+curr.s2 1 0 1 

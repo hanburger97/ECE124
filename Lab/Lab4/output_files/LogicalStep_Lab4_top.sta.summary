@@ -1,0 +1,113 @@
+------------------------------------------------------------
+TimeQuest Timing Analyzer Summary
+------------------------------------------------------------
+
+Type  : Slow 1200mV 85C Model Setup 'MealySM:mealysmInstance|curr.s1'
+Slack : -3.639
+TNS   : -14.218
+
+Type  : Slow 1200mV 85C Model Setup 'bin_counter[23]'
+Slack : -3.386
+TNS   : -44.488
+
+Type  : Slow 1200mV 85C Model Setup 'clkin_50'
+Slack : -2.338
+TNS   : -36.429
+
+Type  : Slow 1200mV 85C Model Hold 'bin_counter[23]'
+Slack : 0.362
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'clkin_50'
+Slack : 0.380
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'MealySM:mealysmInstance|curr.s1'
+Slack : 2.085
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'clkin_50'
+Slack : -3.000
+TNS   : -38.688
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'bin_counter[23]'
+Slack : -1.487
+TNS   : -35.688
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'MealySM:mealysmInstance|curr.s1'
+Slack : 0.430
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Setup 'MealySM:mealysmInstance|curr.s1'
+Slack : -3.439
+TNS   : -13.381
+
+Type  : Slow 1200mV 0C Model Setup 'bin_counter[23]'
+Slack : -3.105
+TNS   : -39.726
+
+Type  : Slow 1200mV 0C Model Setup 'clkin_50'
+Slack : -2.003
+TNS   : -30.768
+
+Type  : Slow 1200mV 0C Model Hold 'bin_counter[23]'
+Slack : 0.325
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'clkin_50'
+Slack : 0.341
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'MealySM:mealysmInstance|curr.s1'
+Slack : 2.023
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'clkin_50'
+Slack : -3.000
+TNS   : -38.688
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'bin_counter[23]'
+Slack : -1.487
+TNS   : -35.688
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'MealySM:mealysmInstance|curr.s1'
+Slack : 0.462
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Setup 'MealySM:mealysmInstance|curr.s1'
+Slack : -1.029
+TNS   : -4.030
+
+Type  : Fast 1200mV 0C Model Setup 'bin_counter[23]'
+Slack : -0.739
+TNS   : -7.495
+
+Type  : Fast 1200mV 0C Model Setup 'clkin_50'
+Slack : -0.506
+TNS   : -1.766
+
+Type  : Fast 1200mV 0C Model Hold 'bin_counter[23]'
+Slack : 0.152
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'clkin_50'
+Slack : 0.156
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'MealySM:mealysmInstance|curr.s1'
+Slack : 1.009
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'clkin_50'
+Slack : -3.000
+TNS   : -31.080
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'bin_counter[23]'
+Slack : -1.000
+TNS   : -24.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'MealySM:mealysmInstance|curr.s1'
+Slack : 0.421
+TNS   : 0.000
+
+------------------------------------------------------------
